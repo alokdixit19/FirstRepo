@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Moon+Dance&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/full/p12.jpeg" type="image/x-icon">  
+    <style>
+    
+        
+        #parent{
+            height: 710px;
+            width: 100%;
+            background-color: aquamarine;
+
+        }
+        #header{
+            height: 50px;
+            width: 100%;
+            font-size: 35px;
+            background-color: black;
+            text-align: center;
+            color: white;
+            line-height: 40px;  /*it is used to vertically allign the text in the div*/
+            padding-top: 15px;
+            font-family: "Dancing Script", cursive;
+        }
+        #Menu{
+            height: 30px;
+            width: 100%;
+            background-color: white;
+            font-size: 22px;
+
+        }
+        tr,td{
+            background-color: green;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+            width: 250px;
+        }
+        #main{
+            height: 620px;
+            width: 100%;
+            /* background-color:beige */
+            /* background-image: url(./full/vector-information-technologies-flat-illustration.jpg); */
+            background-size: cover;
+            background-repeat: no-repeat;
+            animation: Animate;
+            animation-duration: 5s;
+            animation-direction:alternate;
+            animation-iteration-count: infinite;
+
+        }
+        #film{
+            background-color: rgba(0, 0, 0, 0.4);
+            height: 100%;
+            width: 100%;
+}
+        @keyframes Animate{
+            /* what animation we want to do */
+            0%
+            {
+                background-image: url("./imgggg/Information-Technology.jpg");
+                background-size: cover;
+                background-repeat:no-repeat;
+            }
+            25%{
+                background-image: url("./imgggg/pexels-agk42-2599244.jpg");
+                background-size: cover; 
+                background-repeat: no-repeat;
+            }
+            50%{
+                background-image: url("./imgggg/pexels-alxs-919734\ \(1\).jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+
+            }
+            75%{
+                background-image: url("./imgggg/Information-Technology.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+
+            }
+            100%{
+                background-image: url("./imgggg/pexels-agk42-2599244.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+
+            }
+            
+        }
+        table>tr,td>a{
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="header">
+            Information Technology
+        </div>
+        <div id="Menu"><table>
+            <tr>
+                <td>Home</td>
+                <td>Login</td>
+                <td>Registration</td>
+                <td>Feedback</td>
+                <td>Enquiry</td>
+                <td><a target="_blank" href="./Home/index.html" >Feedback</a></td>
+                <td>Contact-us</td>
+                <td>Close</td>
+            </tr>
+        </table>
+        </div>
+        <div id="main">
+            <div id="film">
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
